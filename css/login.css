@@ -34,6 +34,14 @@ body {
   margin-bottom: 100px;
 }
 
+.mobile_logo {
+  display: none;
+}
+
+.desktop_logo {
+  display: block;
+}
+
 .form_container {
   width: 28%;
   margin: 0 auto;
@@ -91,4 +99,23 @@ input[type='submit'] {
   color: #1b2cc1;
   font-family: 'SF UI Display Medium';
   text-transform: capitalize;
+}
+
+@media (max-width: 500px) {
+  .form_container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .logo {
+    margin-bottom: 140px;
+  }
+
+  .mobile_logo {
+    display: block;
+  }
+
+  .desktop_logo {
+    display: none;
+  }
 }
