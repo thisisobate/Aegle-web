@@ -101,6 +101,13 @@ input[type='submit'] {
   text-transform: capitalize;
 }
 
+@media (max-width: 900px) {
+  .form_container {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 500px) {
   .form_container {
     width: 80%;
